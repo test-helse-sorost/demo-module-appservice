@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-module-appservice
+  title: Demo Terraform Module - App Service
+  description: Example Terraform module for provisioning Azure App Service resources
+  annotations:
+    github.com/project-slug: helse-sorost/demo-module-appservice
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - github-demo
+    - demo
+    - terraform
+    - azure
+    - app-service
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:admin
+  system: github-enterprise
